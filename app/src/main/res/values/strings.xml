@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AIPLAYGROUND</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="how_to_use">How to use</string>
+    <string name="chat_with_ai">Chat With Ai</string>
+    <string name="ai_playground">AI PLAYGROUND</string>
+    <string name="to_use_the_ai_feature_of_this_app_follow_these_steps_n_n1_tap_on_the_chat_with_ai_button_on_the_main_screen_n2_enter_your_query_or_message_in_the_chat_interface_n3_the_ai_will_respond_to_your_input_with_relevant_information_or_actions_n4_continue_the_conversation_as_needed_n_nthis_ai_powered_feature_is_designed_to_assist_you_with_various_tasks_and_provide_information">To use the AI feature of this app, follow these steps:\n\n1. Tap on the \'Chat with AI\' button on the main screen.\n2. Enter your query or message in the chat interface.\n3. The AI will respond to your input with relevant information or actions.\n4. Continue the conversation as needed.\n\nThis AI-powered feature is designed to assist you with various tasks and provide information.</string>
+    <string name="how_to_use_ai">How to Use AI</string>
+    <string name="special_thanks_to_harsh">Special thanks to Harsh</string>
+    <string name="this_app_is_made_by_pankaj_jaat">This app is made by Pankaj Jaat</string>
+    <string name="ask_question_to_ai">Ask question to Ai</string>
+    <string name="send">send</string>
+    <string name="img">img</string>
+    <string-array name="ai_model">
+        <item>gemini-1.5-pro</item>
+        <item>gemini-1.5-pro-exp-0827</item>
+        <item>gemini-1.0-pro</item>
+        <item>gemini-1.5-flash</item>
+        <item>gemini-1.5-flash-exp-0827</item>
+        <item>gemini-1.5-flash-8b-exp-0827</item>
+        <item>gemma-2-2b-it</item>
+        <item>gemma-2-9b-it</item>
+        <item>gemma-2-27b-it</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/userMessage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:layout_gravity="end"
+        android:background="@drawable/message_background"/>
+
+    <TextView
+        android:id="@+id/aiMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:layout_gravity="start"
+
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@drawable/ai_message_background"/>
+
+
+    <ImageView
+        android:id="@+id/BSelectImage"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

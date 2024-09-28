@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_app_is_made_by_pankaj_jaat"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/specialThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/special_thanks_to_harsh"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/howToUseAiTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_use_ai"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/howToUseAi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:text="@string/to_use_the_ai_feature_of_this_app_follow_these_steps_n_n1_tap_on_the_chat_with_ai_button_on_the_main_screen_n2_enter_your_query_or_message_in_the_chat_interface_n3_the_ai_will_respond_to_your_input_with_relevant_information_or_actions_n4_continue_the_conversation_as_needed_n_nthis_ai_powered_feature_is_designed_to_assist_you_with_various_tasks_and_provide_information"
+        android:textSize="16sp"/>
+
+</LinearLayout>

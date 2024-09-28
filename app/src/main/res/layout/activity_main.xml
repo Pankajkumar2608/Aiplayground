@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:text="@string/ai_playground"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/chat_with_ai"
+        android:id="@+id/chatWithAi"
+        >
+    </Button>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:layout_marginTop="50dp"
+        android:text="@string/how_to_use"
+        android:background="@drawable/button_background"
+
+        android:id="@+id/howTOUse">
+    </Button>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/nunito_sans_medium"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/button_background_color"
+
+        android:text="@string/contact_us"
+        android:id="@+id/contactUs">
+    </Button>
+
+
+
+
+</LinearLayout>
